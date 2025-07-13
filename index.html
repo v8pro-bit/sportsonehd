@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SportsOneHD – Watch Live Sports in HD Anytime, Anywhere</title>
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="./output.css" rel="stylesheet" />
     <link rel="shortcut icon" type="image/x-icon" href="./favicon.png" />
 </head>
-
 <body>
     <header>
         <div class="header-top"><a href="https://sportsonehd.site/" target="_blank" style="text-decoration: none;">
@@ -28,6 +26,19 @@
             <div class="league-tab" data-league="SOCCER">Soccer Streams</div>
         </div>
     </header>
+    <div class="discord-wrapper">
+        <div class="discord-container">
+            <div class="discord-heading">
+                <h1>Stay in the Game!</h1>
+                <p>Join our Discord for live match alerts & daily sports insights.</p>
+            </div>
+            <a href="https://discord.com/invite/TrWA6eRahz" target="_blank" class="discord-logo-box">
+                <img src="https://www.logo.wine/a/logo/Discord_(software)/Discord_(software)-Logo.wine.svg"
+                    alt="Join Discord" />
+                <span>Join Discord Now</span>
+            </a>
+        </div>
+    </div>
     <div class="container">
         <div class="content-box">
             <section class="main-content">
@@ -50,18 +61,20 @@
                     onkeyup="searchMatches()">
                 <div id="matches">
                     <!--MATCHES-->
-                    <div class="match-link" data-league="WNBA" data-frame="https://topembed.pw/channel/ex7852781">
+                    <div class="match-link" data-league="WNBA" data-frame="https://topembed.pw/channel/ex7852784">
                         <div class="match-card">
                             <div class="match-league">
                                 WNBA
                             </div>
                             <div class="match-title">
-                                Chicago Sky vs Minnesota Lynx
+                                Indiana Fever vs Dallas Wings
                             </div>
-                            <div class="match-time">July 12, 2025 - 1:00 PM ET</div>
+                            <div class="match-time">July 13, 2025 - 1:00 PM ET</div>
                         </div>
                     </div>
-                    <div class="match-link" data-league="MLB" data-frame="https://topembed.pw/channel/ex8052048">
+
+
+                    <div class="match-link" data-league="MLB" data-frame="https://topembed.pw/channel/MLBNetwork[USA]">
                         <div class="match-card">
                             <div class="match-league">
                                 MLB
@@ -69,131 +82,12 @@
                             <div class="match-title">
                                 New York Yankees vs Chicago Cubs
                             </div>
-                            <div class="match-time">July 12, 2025 - 1:05 PM ET</div>
+                            <div class="match-time">July 13, 2025 - 1:35 PM ET</div>
                         </div>
                     </div>
-                    <div class="match-link" data-league="MLB" data-frame="https://topembed.pw/channel/ex8052048">
-                        <div class="match-card">
-                            <div class="match-league">
-                                MLB
-                            </div>
-                            <div class="match-title">
-                                Detroit Tigers vs Seattle Mariners
-                            </div>
-                            <div class="match-time">July 12, 2025 - 1:10 PM ET</div>
-                        </div>
-                    </div>
-                    <div class="match-link" data-league="MLB" data-frame="https://topembed.pw/channel/ex8052048">
-                        <div class="match-card">
-                            <div class="match-league">
-                                MLB
-                            </div>
-                            <div class="match-title">
-                                Minnesota Twins vs Pittsburgh Pirates
-                            </div>
-                            <div class="match-time">July 12, 2025 - 2:10 PM ET</div>
-                        </div>
-                    </div>
-                    <div class="match-link" data-league="MLB" data-frame="https://topembed.pw/channel/ex8052048">
-                        <div class="match-card">
-                            <div class="match-league">
-                                MLB
-                            </div>
-                            <div class="match-title">
-                                St. Louis Cardinals vs Atlanta Braves
-                            </div>
-                            <div class="match-time">July 12, 2025 - 2:15 PM ET</div>
-                        </div>
-                    </div>
-                    <div class="match-link" data-league="NBA" data-frame="https://topembed.pw/channel/ex8195923">
-                        <div class="match-card">
-                            <div class="match-league">
-                                NBA
-                            </div>
-                            <div class="match-title">
-                                Milwaukee Bucks vs Cleveland Cavaliers
-                            </div>
-                            <div class="match-time">July 12, 2025 - 3:30 PM ET</div>
-                        </div>
-                    </div>
-                    <div class="match-link" data-league="NBA" data-frame="https://topembed.pw/channel/ESPN[USA]">
-                        <div class="match-card">
-                            <div class="match-league">
-                                NBA
-                            </div>
-                            <div class="match-title">
-                                San Antonio Spurs vs Dallas Mavericks
-                            </div>
-                            <div class="match-time">July 12, 2025 - 4:00 PM ET</div>
-                        </div>
-                    </div>
-                    <div class="match-link" data-league="WNBA" data-frame="https://topembed.pw/channel/ex7852782">
-                        <div class="match-card">
-                            <div class="match-league">
-                                WNBA
-                            </div>
-                            <div class="match-title">
-                                Las Vegas Aces vs Golden State Valkyries
-                            </div>
-                            <div class="match-time">July 12, 2025 - 4:00 PM ET</div>
-                        </div>
-                    </div>
-                    <div class="match-link" data-league="MLB" data-frame="https://topembed.pw/channel/ex8052048">
-                        <div class="match-card">
-                            <div class="match-league">
-                                MLB
-                            </div>
-                            <div class="match-title">
-                                San Francisco Giants vs Los Angeles Dodgers
-                            </div>
-                            <div class="match-time">July 12, 2025 - 4:05 PM ET</div>
-                        </div>
-                    </div>
-                    <div class="match-link" data-league="MLB" data-frame="https://topembed.pw/channel/ex8052048">
-                        <div class="match-card">
-                            <div class="match-league">
-                                MLB
-                            </div>
-                            <div class="match-title">
-                                Baltimore Orioles vs Miami Marlins
-                            </div>
-                            <div class="match-time">July 12, 2025 - 4:05 PM ET</div>
-                        </div>
-                    </div>
-                    <div class="match-link" data-league="MLB" data-frame="https://topembed.pw/channel/ex8052048">
-                        <div class="match-card">
-                            <div class="match-league">
-                                MLB
-                            </div>
-                            <div class="match-title">
-                                Kansas City Royals vs New York Mets
-                            </div>
-                            <div class="match-time">July 12, 2025 - 4:10 PM ET</div>
-                        </div>
-                    </div>
-                    <div class="match-link" data-league="MLB" data-frame="https://topembed.pw/channel/ex8052048">
-                        <div class="match-card">
-                            <div class="match-league">
-                                MLB
-                            </div>
-                            <div class="match-title">
-                                Cincinnati Reds vs Colorado Rockies
-                            </div>
-                            <div class="match-time">July 12, 2025 - 4:10 PM ET</div>
-                        </div>
-                    </div>
-                    <div class="match-link" data-league="MLB" data-frame="https://topembed.pw/channel/ex8052048">
-                        <div class="match-card">
-                            <div class="match-league">
-                                MLB
-                            </div>
-                            <div class="match-title">
-                                Chicago White Sox vs Cleveland Guardians
-                            </div>
-                            <div class="match-time">July 12, 2025 - 4:10 PM ET</div>
-                        </div>
-                    </div>
-                    <div class="match-link" data-league="MLB" data-frame="https://topembed.pw/channel/ex8052048">
+
+
+                    <div class="match-link" data-league="MLB" data-frame="https://topembed.pw/channel/MLBNetwork[USA]">
                         <div class="match-card">
                             <div class="match-league">
                                 MLB
@@ -201,10 +95,51 @@
                             <div class="match-title">
                                 Boston Red Sox vs Tampa Bay Rays
                             </div>
-                            <div class="match-time">July 12, 2025 - 4:10 PM ET</div>
+                            <div class="match-time">July 13, 2025 - 1:35 PM ET</div>
                         </div>
                     </div>
-                    <div class="match-link" data-league="MLB" data-frame="https://topembed.pw/channel/ex8052048">
+
+
+                    <div class="match-link" data-league="MLB" data-frame="https://topembed.pw/channel/MLBNetwork[USA]">
+                        <div class="match-card">
+                            <div class="match-league">
+                                MLB
+                            </div>
+                            <div class="match-title">
+                                Baltimore Orioles vs Miami Marlins
+                            </div>
+                            <div class="match-time">July 13, 2025 - 1:35 PM ET</div>
+                        </div>
+                    </div>
+
+
+                    <div class="match-link" data-league="MLB" data-frame="https://topembed.pw/channel/MLBNetwork[USA]">
+                        <div class="match-card">
+                            <div class="match-league">
+                                MLB
+                            </div>
+                            <div class="match-title">
+                                Cincinnati Reds vs Colorado Rockies
+                            </div>
+                            <div class="match-time">July 13, 2025 - 1:40 PM ET</div>
+                        </div>
+                    </div>
+
+
+                    <div class="match-link" data-league="MLB" data-frame="https://topembed.pw/channel/MLBNetwork[USA]">
+                        <div class="match-card">
+                            <div class="match-league">
+                                MLB
+                            </div>
+                            <div class="match-title">
+                                Detroit Tigers vs Seattle Mariners
+                            </div>
+                            <div class="match-time">July 13, 2025 - 1:40 PM ET</div>
+                        </div>
+                    </div>
+
+
+                    <div class="match-link" data-league="MLB" data-frame="https://topembed.pw/channel/MLBNetwork[USA]">
                         <div class="match-card">
                             <div class="match-league">
                                 MLB
@@ -212,121 +147,38 @@
                             <div class="match-title">
                                 Milwaukee Brewers vs Washington Nationals
                             </div>
-                            <div class="match-time">July 12, 2025 - 4:10 PM ET</div>
+                            <div class="match-time">July 13, 2025 - 2:20 PM ET</div>
                         </div>
                     </div>
-                    <div class="match-link" data-league="NBA" data-frame="https://topembed.pw/channel/ex8195925">
-                        <div class="match-card">
-                            <div class="match-league">
-                                NBA
-                            </div>
-                            <div class="match-title">
-                                Oklahoma City Thunder vs Indiana Pacers
-                            </div>
-                            <div class="match-time">July 12, 2025 - 5:30 PM ET</div>
-                        </div>
-                    </div>
-                    <div class="match-link" data-league="MMA" data-frame="https://topembed.pw/channel/TNTSports1[UK]">
-                        <div class="match-card">
-                            <div class="match-league">
-                                MMA
-                            </div>
-                            <div class="match-title">
-                                UFC FIGHT NIGHT PRELIMS - Max Griffin vs Chris Curtis
-                            </div>
-                            <div class="match-time">July 12, 2025 - 6:00 PM ET</div>
-                        </div>
-                    </div>
-                    <div class="match-link" data-league="BOXING"
-                        data-frame="https://embedsports.me/boxing/ring-iii-shakur-stevenson-vs-william-zepeda-stream-1">
-                        <div class="match-card">
-                            <div class="match-league">
-                                BOXING
-                            </div>
-                            <div class="match-title">
-                                Top Rank BOXING - Shakur Stevenson vs William Zepeda
-                            </div>
-                            <div class="match-time">July 12, 2025 - 6:00 PM ET</div>
-                        </div>
-                    </div>
-                    <div class="match-link" data-league="NBA" data-frame="https://topembed.pw/channel/ESPN2[USA]">
-                        <div class="match-card">
-                            <div class="match-league">
-                                NBA
-                            </div>
-                            <div class="match-title">
-                                Philadelphia 76ers vs Charlotte Hornets
-                            </div>
-                            <div class="match-time">July 12, 2025 - 6:30 PM ET</div>
-                        </div>
-                    </div>
-                    <div class="match-link" data-league="MLS" data-frame="https://topembed.pw/channel/ex7802865CCCC">
-                        <div class="match-card">
-                            <div class="match-league">
-                                MLS
-                            </div>
-                            <div class="match-title">
-                                Charlotte FC vs New York City FC
-                            </div>
-                            <div class="match-time">July 12, 2025 - 7:30 PM ET</div>
-                        </div>
-                    </div>
-                    <div class="match-link" data-league="MLS" data-frame="https://topembed.pw/channel/ex7802866">
-                        <div class="match-card">
-                            <div class="match-league">
-                                MLS
-                            </div>
-                            <div class="match-title">
-                                FC Cincinnati vs Columbus Crew
-                            </div>
-                            <div class="match-time">July 12, 2025 - 7:30 PM ET</div>
-                        </div>
-                    </div>
-                    <div class="match-link" data-league="MLS" data-frame="https://topembed.pw/channel/ex7802868">
-                        <div class="match-card">
-                            <div class="match-league">
-                                MLS
-                            </div>
-                            <div class="match-title">
-                                Orlando City vs CF Montréal
-                            </div>
-                            <div class="match-time">July 12, 2025 - 7:30 PM ET</div>
-                        </div>
-                    </div>
-                    <div class="match-link" data-league="MLS" data-frame="https://topembed.pw/channel/ex7802869">
-                        <div class="match-card">
-                            <div class="match-league">
-                                MLS
-                            </div>
-                            <div class="match-title">
-                                Philadelphia Union vs New York Red Bulls
-                            </div>
-                            <div class="match-time">July 12, 2025 - 7:30 PM ET</div>
-                        </div>
-                    </div>
-                    <div class="match-link" data-league="MLS" data-frame="https://topembed.pw/channel/TSN4[Canada]">
-                        <div class="match-card">
-                            <div class="match-league">
-                                MLS
-                            </div>
-                            <div class="match-title">
-                                Toronto FC vs Atlanta United
-                            </div>
-                            <div class="match-time">July 12, 2025 - 7:30 PM ET</div>
-                        </div>
-                    </div>
-                    <div class="match-link" data-league="MLB" data-frame="https://topembed.pw/channel/ex8052048">
+
+
+                    <div class="match-link" data-league="MLB" data-frame="https://topembed.pw/channel/MLBNetwork[USA]">
                         <div class="match-card">
                             <div class="match-league">
                                 MLB
                             </div>
                             <div class="match-title">
-                                San Diego Padres vs Philadelphia Phillies
+                                Minnesota Twins vs Pittsburgh Pirates
                             </div>
-                            <div class="match-time">July 12, 2025 - 7:35 PM ET</div>
+                            <div class="match-time">July 13, 2025 - 2:10 PM ET</div>
                         </div>
                     </div>
-                    <div class="match-link" data-league="MLB" data-frame="https://topembed.pw/channel/ex8052048">
+
+
+                    <div class="match-link" data-league="MLB" data-frame="https://topembed.pw/channel/MLBNetwork[USA]">
+                        <div class="match-card">
+                            <div class="match-league">
+                                MLB
+                            </div>
+                            <div class="match-title">
+                                Kansas City Royals vs New York Mets
+                            </div>
+                            <div class="match-time">July 13, 2025 - 2:10 PM ET</div>
+                        </div>
+                    </div>
+
+
+                    <div class="match-link" data-league="MLB" data-frame="https://topembed.pw/channel/MLBNetwork[USA]">
                         <div class="match-card">
                             <div class="match-league">
                                 MLB
@@ -334,164 +186,94 @@
                             <div class="match-title">
                                 Houston Astros vs Texas Rangers
                             </div>
-                            <div class="match-time">July 12, 2025 - 7:35 PM ET</div>
+                            <div class="match-time">July 13, 2025 - 2:10 PM ET</div>
                         </div>
                     </div>
-                    <div class="match-link" data-league="MLS" data-frame="https://topembed.pw/channel/FOXSports1[USA]">
+
+
+                    <div class="match-link" data-league="MLB" data-frame="https://topembed.pw/channel/MLBNetwork[USA]">
                         <div class="match-card">
                             <div class="match-league">
-                                MLS
+                                MLB
                             </div>
                             <div class="match-title">
-                                Inter Miami vs Nashville SC
+                                Chicago White Sox vs Cleveland Guardians
                             </div>
-                            <div class="match-time">July 12, 2025 - 7:45 PM ET</div>
+                            <div class="match-time">July 13, 2025 - 2:10 PM ET</div>
                         </div>
                     </div>
-                    <div class="match-link" data-league="NFL" data-frame="https://topembed.pw/channel/TSN1[Canada]">
+
+
+                    <div class="match-link" data-league="MLB" data-frame="https://topembed.pw/channel/MLBNetwork[USA]">
                         <div class="match-card">
                             <div class="match-league">
-                                CFL
+                                MLB
                             </div>
                             <div class="match-title">
-                                Hamilton Tiger-Cats vs Ottawa Redblacks
+                                St. Louis Cardinals vs Atlanta Braves
                             </div>
-                            <div class="match-time">July 12, 2025 - 8:00 PM ET</div>
+                            <div class="match-time">July 13, 2025 - 2:15 PM ET</div>
                         </div>
                     </div>
-                    <div class="match-link" data-league="NBA" data-frame="https://topembed.pw/channel/ex8195939">
+
+
+                    <div class="match-link" data-league="WNBA" data-frame="https://topembed.pw/channel/ex7852780">
+                        <div class="match-card">
+                            <div class="match-league">
+                                WNBA
+                            </div>
+                            <div class="match-title">
+                                New York Liberty vs Atlanta Dream
+                            </div>
+                            <div class="match-time">July 13, 2025 - 3:00 PM ET</div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="match-link" data-league="NBA" data-frame="https://topembed.pw/channel/ex8195944">
                         <div class="match-card">
                             <div class="match-league">
                                 NBA
                             </div>
                             <div class="match-title">
-                                Chicago Bulls vs Sacramento Kings
+                                Atlanta Hawks vs Phoenix Suns
                             </div>
-                            <div class="match-time">July 12, 2025 - 8:00 PM ET</div>
+                            <div class="match-time">July 13, 2025 - 3:30 PM ET</div>
                         </div>
                     </div>
-                    <div class="match-link" data-league="WWE" data-frame="https://topembed.pw/channel/ex7852781">
-                        <div class="match-card">
-                            <div class="match-league">
-                                WWE
-                            </div>
-                            <div class="match-title">
-                                WWE Superstars Saturday Night's Main Event
-                            </div>
-                            <div class="match-time">July 12, 2025 - 8:00 PM ET</div>
-                        </div>
-                    </div>
+
+
+
                     <div class="match-link" data-league="NBA" data-frame="https://topembed.pw/channel/ESPN2[USA]">
                         <div class="match-card">
                             <div class="match-league">
                                 NBA
                             </div>
                             <div class="match-title">
-                                New Orleans Pelicans vs Los Angeles Lakers
+                                Houston Rockets vs Detroit Pistons
                             </div>
-                            <div class="match-time">July 12, 2025 - 8:30 PM ET</div>
+                            <div class="match-time">July 13, 2025 - 4:00 PM ET</div>
                         </div>
                     </div>
-                    <div class="match-link" data-league="MLS" data-frame="https://topembed.pw/channel/ex7808378">
-                        <div class="match-card">
-                            <div class="match-league">
-                                MLS
-                            </div>
-                            <div class="match-title">
-                                Austin FC vs New England Revolution
-                            </div>
-                            <div class="match-time">July 12, 2025 - 8:30 PM ET</div>
-                        </div>
-                    </div>
-                    <div class="match-link" data-league="MLS" data-frame="https://topembed.pw/channel/ex7808380">
-                        <div class="match-card">
-                            <div class="match-league">
-                                MLS
-                            </div>
-                            <div class="match-title">
-                                Sporting Kansas City vs Seattle Sounders FC
-                            </div>
-                            <div class="match-time">July 12, 2025 - 8:30 PM ET</div>
-                        </div>
-                    </div>
-                    <div class="match-link" data-league="MLS" data-frame="https://topembed.pw/channel/ex7808381">
-                        <div class="match-card">
-                            <div class="match-league">
-                                MLS
-                            </div>
-                            <div class="match-title">
-                                Minnesota United vs San Jose Earthquakes
-                            </div>
-                            <div class="match-time">July 12, 2025 - 8:30 PM ET</div>
-                        </div>
-                    </div>
-                    <div class="match-link" data-league="MLS" data-frame="https://topembed.pw/channel/ex7808379">
-                        <div class="match-card">
-                            <div class="match-league">
-                                MLS
-                            </div>
-                            <div class="match-title">
-                                Chicago Fire vs San Diego FC
-                            </div>
-                            <div class="match-time">July 12, 2025 - 8:30 PM ET</div>
-                        </div>
-                    </div>
-                    <div class="match-link" data-league="MMA" data-frame="https://topembed.pw/channel/TNTSports1[UK]">
-                        <div class="match-card">
-                            <div class="match-league">
-                                MMA
-                            </div>
-                            <div class="match-title">
-                                UFC FIGHT NIGHT MAIN CARD - Derrick Lewis vs Tallison Teixeira
-                            </div>
-                            <div class="match-time">July 12, 2025 - 9:00 PM ET</div>
-                        </div>
-                    </div>
-                    <div class="match-link" data-league="MLS" data-frame="https://topembed.pw/channel/ex7808382">
-                        <div class="match-card">
-                            <div class="match-league">
-                                MLS
-                            </div>
-                            <div class="match-title">
-                                Colorado Rapids vs Vancouver Whitecaps
-                            </div>
-                            <div class="match-time">July 12, 2025 - 9:30 PM ET</div>
-                        </div>
-                    </div>
-                    <div class="match-link" data-league="MLS" data-frame="https://topembed.pw/channel/ex7808383">
-                        <div class="match-card">
-                            <div class="match-league">
-                                MLS
-                            </div>
-                            <div class="match-title">
-                                Real Salt Lake vs Houston Dynamo
-                            </div>
-                            <div class="match-time">July 12, 2025 - 9:30 PM ET</div>
-                        </div>
-                    </div>
-                    <div class="match-link" data-league="MLB" data-frame="https://topembed.pw/channel/ex8052048">
+
+
+
+
+                    <div class="match-link" data-league="MLB" data-frame="https://topembed.pw/channel/MLBNetwork[USA]">
                         <div class="match-card">
                             <div class="match-league">
                                 MLB
                             </div>
                             <div class="match-title">
-                                Los Angeles Angels vs Arizona Diamondbacks
+                                San Francisco Giants vs Los Angeles Dodgers
                             </div>
-                            <div class="match-time">July 12, 2025 - 9:38 PM ET</div>
+                            <div class="match-time">July 13, 2025 - 4:05 PM ET</div>
                         </div>
                     </div>
-                    <div class="match-link" data-league="NBA" data-frame="https://topembed.pw/channel/ex8195942">
-                        <div class="match-card">
-                            <div class="match-league">
-                                NBA
-                            </div>
-                            <div class="match-title">
-                                Denver Nuggets vs Minnesota Timberwolves
-                            </div>
-                            <div class="match-time">July 12, 2025 - 10:00 PM ET</div>
-                        </div>
-                    </div>
-                    <div class="match-link" data-league="MLB" data-frame="https://topembed.pw/channel/ex8052048">
+
+
+                    <div class="match-link" data-league="MLB" data-frame="https://topembed.pw/channel/MLBNetwork[USA]">
                         <div class="match-card">
                             <div class="match-league">
                                 MLB
@@ -499,40 +281,144 @@
                             <div class="match-title">
                                 Athletics vs Toronto Blue Jays
                             </div>
-                            <div class="match-time">July 12, 2025 - 10:05 PM ET</div>
+                            <div class="match-time">July 13, 2025 - 4:05 PM ET</div>
                         </div>
                     </div>
+
+
+                    <div class="match-link" data-league="MLB" data-frame="https://topembed.pw/channel/MLBNetwork[USA]">
+                        <div class="match-card">
+                            <div class="match-league">
+                                MLB
+                            </div>
+                            <div class="match-title">
+                                Los Angeles Angels vs Arizona Diamondbacks
+                            </div>
+                            <div class="match-time">July 13, 2025 - 4:07 PM ET</div>
+                        </div>
+                    </div>
+
+
+                    <div class="match-link" data-league="MLB" data-frame="https://topembed.pw/channel/MLBNetwork[USA]">
+                        <div class="match-card">
+                            <div class="match-league">
+                                MLB
+                            </div>
+                            <div class="match-title">
+                                San Diego Padres vs Philadelphia Phillies
+                            </div>
+                            <div class="match-time">July 13, 2025 - 4:07 PM ET</div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="match-link" data-league="NBA" data-frame="https://topembed.pw/channel/ex8195946">
+                        <div class="match-card">
+                            <div class="match-league">
+                                NBA
+                            </div>
+                            <div class="match-title">
+                                Boston Celtics vs New York Knicks
+                            </div>
+                            <div class="match-time">July 13, 2025 - 5:30 PM ET</div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="match-link" data-league="WNBA" data-frame="https://topembed.pw/channel/NBCSBoston[USA]">
+                        <div class="match-card">
+                            <div class="match-league">
+                                WNBA
+                            </div>
+                            <div class="match-title">
+                                Los Angeles Sparks vs Connecticut Sun
+                            </div>
+                            <div class="match-time">July 13, 2025 - 6:00 PM ET</div>
+                        </div>
+                    </div>
+
+
+                    <div class="match-link" data-league="WNBA" data-frame="https://topembed.pw/channel/ex7852785">
+                        <div class="match-card">
+                            <div class="match-league">
+                                WNBA
+                            </div>
+                            <div class="match-title">
+                                Seattle Storm vs Washington Mystics
+                            </div>
+                            <div class="match-time">July 13, 2025 - 6:00 PM ET</div>
+                        </div>
+                    </div>
+
+
                     <div class="match-link" data-league="NBA" data-frame="https://topembed.pw/channel/ESPN2[USA]">
                         <div class="match-card">
                             <div class="match-league">
                                 NBA
                             </div>
                             <div class="match-title">
-                                Portland Trail Blazers vs Memphis Grizzlies
+                                Orlando Magic vs Toronto Raptors
                             </div>
-                            <div class="match-time">July 12, 2025 - 10:30 PM ET</div>
+                            <div class="match-time">July 13, 2025 - 6:00 PM ET</div>
                         </div>
                     </div>
-                    <div class="match-link" data-league="MLS" data-frame="https://topembed.pw/channel/TSN4[Canada]">
+
+
+                    <div class="match-link" data-league="NBA" data-frame="https://topembed.pw/channel/ex8195948">
                         <div class="match-card">
                             <div class="match-league">
-                                MLS
+                                NBA
                             </div>
                             <div class="match-title">
-                                LA Galaxy vs DC United
+                                Cleveland Cavaliers vs Miami Heat
                             </div>
-                            <div class="match-time">July 12, 2025 - 10:30 PM ET</div>
+                            <div class="match-time">July 13, 2025 - 7:30 PM ET</div>
                         </div>
                     </div>
-                    <div class="match-link" data-league="MLS" data-frame="https://topembed.pw/channel/ex7808385">
+
+
+
+                    <div class="match-link" data-league="NBA" data-frame="https://topembed.pw/channel/ESPN2[USA]">
                         <div class="match-card">
                             <div class="match-league">
-                                MLS
+                                NBA
                             </div>
                             <div class="match-title">
-                                Los Angeles FC vs FC Dallas
+                                Washington Wizards vs Brooklyn Nets
                             </div>
-                            <div class="match-time">July 12, 2025 - 10:30 PM ET</div>
+                            <div class="match-time">July 13, 2025 - 8:00 PM ET</div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="match-link" data-league="NBA" data-frame="https://topembed.pw/channel/ex8195963">
+                        <div class="match-card">
+                            <div class="match-league">
+                                NBA
+                            </div>
+                            <div class="match-title">
+                                Los Angeles Clippers vs Milwaukee Bucks
+                            </div>
+                            <div class="match-time">July 13, 2025 - 9:30 PM ET</div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="match-link" data-league="NBA" data-frame="https://topembed.pw/channel/ESPN2[USA]">
+                        <div class="match-card">
+                            <div class="match-league">
+                                NBA
+                            </div>
+                            <div class="match-title">
+                                Utah Jazz vs Golden State Warriors
+                            </div>
+                            <div class="match-time">July 13, 2025 - 10:00 PM ET</div>
                         </div>
                     </div>
                     <!--MATCHES-->
@@ -573,7 +459,7 @@
         </div>
     </div>
     <script>function getTimeRemaining(e) { const t = new Date().getTime(), n = e - t, r = Math.floor(n / 1e3 % 60), o = Math.floor(n / 1e3 / 60 % 60), a = Math.floor(n / 36e5 % 24), c = Math.floor(n / 864e5); return { total: n, days: c, hours: a, minutes: o, seconds: r } } function parseETStringToDate(e) { const t = e.replace("ET", "").trim(), [n, r] = t.split(" - "), [o, a, c] = n.split(" "), [l, s] = r.split(":"), [i, d] = s.split(" "), u = { January: 0, February: 1, March: 2, April: 3, May: 4, June: 5, July: 6, August: 7, September: 8, October: 9, November: 10, December: 11 }; let m = parseInt(l); const h = parseInt(i); return "PM" === d && 12 !== m ? m += 12 : "AM" === d && 12 === m && (m = 0), new Date(Date.UTC(parseInt(c), u[o], parseInt(a.replace(",", "")), m + 4, h)) } function initCountdowns() { document.querySelectorAll(".match-time").forEach(e => { const t = e.innerText.trim(), n = parseETStringToDate(t); e.innerHTML = ""; const r = document.createElement("div"); r.style.display = "inline-block", r.style.padding = "6px 12px", r.style.background = "#003a42", r.style.color = "white", r.style.fontSize = "14px", r.style.borderRadius = "8px", r.style.fontWeight = "600", r.style.fontFamily = "'Segoe UI', sans-serif", r.style.border = "1px solid #00acc1", r.style.letterSpacing = "0.5px", e.appendChild(r); function o() { const e = getTimeRemaining(n); e.total > 0 ? r.innerText = `Starts in: ${e.days > 0 ? e.days + "d " : ""}${e.hours}h ${e.minutes}m ${e.seconds}s` : (r.innerText = "MATCH STARTED", r.style.background = "#003a42", r.style.color = "white", r.style.border = "1px solid #00acc1") } o(), setInterval(o, 1e3) }) } window.addEventListener("DOMContentLoaded", initCountdowns);</script>
-     <script>
+    <script>
         let selectedLeague = 'All';
         document.querySelectorAll('.league-tab').forEach(tab => {
             tab.addEventListener('click', () => {
@@ -585,7 +471,6 @@
             });
         });
         document.getElementById('searchBox').addEventListener('input', filterMatches);
-
         function filterMatches() {
             const input = document.getElementById('searchBox').value.toLowerCase();
             const matches = document.querySelectorAll('.match-link');
@@ -600,7 +485,6 @@
                 match.style.display = (leagueMatches && searchMatches) ? 'block' : 'none';
             });
         }
-
         document.querySelectorAll('.match-link').forEach(el => {
             el.addEventListener('click', function () {
                 const frameLink = this.getAttribute('data-frame');
@@ -621,4 +505,32 @@
         })();</script>
     <noscript><a href="/" target="_blank"><img src="//sstatic1.histats.com/0.gif?4961593&101" alt="counter easy hit"
                 border="0"></a></noscript>
-</body></html>
+    <div style="
+  background-color: #1f1f1f;
+  padding: 30px 20px;
+  color: #bbb;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  border-top: 1px solid #333;
+">
+
+        <div style="margin-bottom: 10px;">
+            <a href="https://discord.com/invite/TrWA6eRahz" target="_blank" style="
+      color: #5865f2;
+      text-decoration: none;
+      font-weight: bold;
+    ">
+                Join our Discord
+            </a>
+            &nbsp;|&nbsp;
+            <a href="#" style="color: #bbb; text-decoration: none;">Privacy</a>
+            &nbsp;|&nbsp;
+            <a href="#" style="color: #bbb; text-decoration: none;">Terms</a>
+        </div>
+        <div>
+            &copy; 2025 SportsOnline. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
