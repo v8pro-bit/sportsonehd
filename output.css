@@ -329,7 +329,7 @@ header {
         flex-direction: column;
         padding: 16px;
         gap: 20px;
-        width: 90%
+        width: 93%
     }
 
     #searchBox {
@@ -341,7 +341,7 @@ header {
     .match-card {
         flex-direction: column;
         align-items: flex-start;
-        width: 122%;
+        width: 130%;
         padding: 16px;
         gap: 12px
     }
