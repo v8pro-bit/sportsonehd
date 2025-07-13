@@ -81,10 +81,6 @@ header {
     border: 2px solid #00acc1
 }
 
-
-
-
-
 .discord-wrapper {
   display: flex;
   justify-content: center;
@@ -100,7 +96,7 @@ header {
   text-align: center;
   max-width: 500px;
   width: 100%;
-  height: 200px;
+  height: 130px;
   margin-top: -50px;
 }
 
@@ -126,21 +122,16 @@ header {
   border-radius: 16px;
   transition: all 0.3s ease;
   text-decoration: none;
-    height: 105px;
+    height: 70px;
 
 }
 
 
 .discord-logo-box img {
-  height: 400px;
-  margin-top: -143px;
+  height: 330px;
+  margin-top: -127px;
 }
 
-.discord-logo-box span {
-  color: #fff;
-  font-weight: 600;
-  font-size: 18px;
-}
 
 
 .container {
