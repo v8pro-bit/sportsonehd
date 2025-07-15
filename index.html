@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -593,7 +594,6 @@
             </div>
         </div>
     </div>
-    <script>function getTimeRemaining(e) { const t = new Date().getTime(), n = e - t, r = Math.floor(n / 1e3 % 60), o = Math.floor(n / 1e3 / 60 % 60), a = Math.floor(n / 36e5 % 24), c = Math.floor(n / 864e5); return { total: n, days: c, hours: a, minutes: o, seconds: r } } function parseETStringToDate(e) { const t = e.replace("ET", "").trim(), [n, r] = t.split(" - "), [o, a, c] = n.split(" "), [l, s] = r.split(":"), [i, d] = s.split(" "), u = { January: 0, February: 1, March: 2, April: 3, May: 4, June: 5, July: 6, August: 7, September: 8, October: 9, November: 10, December: 11 }; let m = parseInt(l); const h = parseInt(i); return "PM" === d && 12 !== m ? m += 12 : "AM" === d && 12 === m && (m = 0), new Date(Date.UTC(parseInt(c), u[o], parseInt(a.replace(",", "")), m + 4, h)) } function initCountdowns() { document.querySelectorAll(".match-time").forEach(e => { const t = e.innerText.trim(), n = parseETStringToDate(t); e.innerHTML = ""; const r = document.createElement("div"); r.style.display = "inline-block", r.style.padding = "6px 12px", r.style.background = "#003a42", r.style.color = "white", r.style.fontSize = "14px", r.style.borderRadius = "8px", r.style.fontWeight = "600", r.style.fontFamily = "'Segoe UI', sans-serif", r.style.border = "1px solid #00acc1", r.style.letterSpacing = "0.5px", e.appendChild(r); function o() { const e = getTimeRemaining(n); e.total > 0 ? r.innerText = `Starts in: ${e.days > 0 ? e.days + "d " : ""}${e.hours}h ${e.minutes}m ${e.seconds}s` : (r.innerText = "MATCH STARTED", r.style.background = "#003a42", r.style.color = "white", r.style.border = "1px solid #00acc1") } o(), setInterval(o, 1e3) }) } window.addEventListener("DOMContentLoaded", initCountdowns);</script>
     <script>
         let selectedLeague = 'All';
         document.querySelectorAll('.league-tab').forEach(tab => {
